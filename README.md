@@ -5,5 +5,5 @@ Este repositorio contiene todas las prácticas, ejercicios y proyectos desarroll
 ## Autores
 
 - Alarcón Rangel Bruno
-- Roberto Garcia Oropeza
+- García Oropeza Roberto
 - Pérez Chavarría Arturo
