@@ -7,3 +7,4 @@ Este repositorio contiene todas las prácticas, ejercicios y proyectos desarroll
 - Alarcón Rangel Bruno
 - García Oropeza Roberto
 - Pérez Chavarría Arturo
+- Villegas Soriano Yeicatl Alejandro
