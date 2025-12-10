@@ -1,0 +1,6 @@
+{
+  "package_name": "example_interfaces",
+  "non_idl_tuples": [
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_interfaces:msg/ExampleMsg.msg"
+  ]
+}

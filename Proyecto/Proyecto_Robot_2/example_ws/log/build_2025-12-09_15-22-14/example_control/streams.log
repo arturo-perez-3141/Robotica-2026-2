@@ -1,0 +1,26 @@
+[1.767s] Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_control': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_control/build --no-deps symlink_data
+[2.198s] running develop
+[2.484s] running egg_info
+[2.484s] creating example_control.egg-info
+[2.485s] writing example_control.egg-info/PKG-INFO
+[2.485s] writing dependency_links to example_control.egg-info/dependency_links.txt
+[2.486s] writing entry points to example_control.egg-info/entry_points.txt
+[2.486s] writing requirements to example_control.egg-info/requires.txt
+[2.487s] writing top-level names to example_control.egg-info/top_level.txt
+[2.487s] writing manifest file 'example_control.egg-info/SOURCES.txt'
+[2.490s] reading manifest file 'example_control.egg-info/SOURCES.txt'
+[2.491s] writing manifest file 'example_control.egg-info/SOURCES.txt'
+[2.494s] running build_ext
+[2.495s] Creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/lib/python3.10/site-packages/example-control.egg-link (link to .)
+[2.495s] Installing controller_manager script to /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/lib/example_control
+[2.496s] Installing hardware_interface script to /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/lib/example_control
+[2.496s] Installing manipulator_controller script to /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/lib/example_control
+[2.496s] 
+[2.497s] Installed /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_control
+[2.497s] running symlink_data
+[2.497s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/share/ament_index
+[2.497s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/share/ament_index/resource_index
+[2.497s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/share/ament_index/resource_index/packages
+[2.498s] symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_control/resource/example_control -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/share/ament_index/resource_index/packages
+[2.498s] symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_control/package.xml -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/share/example_control
+[2.577s] Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_control' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_control/build --no-deps symlink_data

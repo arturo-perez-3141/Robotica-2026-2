@@ -1,0 +1,32 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_pkg",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/python3.10/site-packages",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages",
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_description",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_description/lib/python3.10/site-packages",
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_decription",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_decription/lib/python3.10/site-packages",
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_control",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/lib/python3.10/site-packages",
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_bringup",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_bringup/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_pkg",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/python3.10/site-packages",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages",
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_description",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_description/lib/python3.10/site-packages",
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_decription",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_decription/lib/python3.10/site-packages",
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_control",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_control/lib/python3.10/site-packages",
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/build/example_bringup",
+    "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_bringup/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ]
+}

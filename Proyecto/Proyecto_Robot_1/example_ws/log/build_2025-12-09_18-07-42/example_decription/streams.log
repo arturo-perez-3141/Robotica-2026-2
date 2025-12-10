@@ -1,0 +1,23 @@
+[1.918s] Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/build --no-deps symlink_data
+[2.350s] running develop
+[2.655s] running egg_info
+[2.655s] creating example_decription.egg-info
+[2.655s] writing example_decription.egg-info/PKG-INFO
+[2.658s] writing dependency_links to example_decription.egg-info/dependency_links.txt
+[2.658s] writing entry points to example_decription.egg-info/entry_points.txt
+[2.659s] writing requirements to example_decription.egg-info/requires.txt
+[2.659s] writing top-level names to example_decription.egg-info/top_level.txt
+[2.659s] writing manifest file 'example_decription.egg-info/SOURCES.txt'
+[2.659s] reading manifest file 'example_decription.egg-info/SOURCES.txt'
+[2.659s] writing manifest file 'example_decription.egg-info/SOURCES.txt'
+[2.661s] running build_ext
+[2.661s] Creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/lib/python3.10/site-packages/example-decription.egg-link (link to .)
+[2.662s] 
+[2.663s] Installed /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription
+[2.663s] running symlink_data
+[2.663s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/ament_index
+[2.667s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/ament_index/resource_index
+[2.667s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/ament_index/resource_index/packages
+[2.667s] symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/resource/example_decription -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/ament_index/resource_index/packages
+[2.667s] symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/package.xml -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription
+[2.733s] Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/build --no-deps symlink_data

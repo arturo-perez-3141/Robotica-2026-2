@@ -1,0 +1,1 @@
+/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

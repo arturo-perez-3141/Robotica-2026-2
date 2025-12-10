@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating example_pkg.egg-info
+writing example_pkg.egg-info/PKG-INFO
+writing dependency_links to example_pkg.egg-info/dependency_links.txt
+writing entry points to example_pkg.egg-info/entry_points.txt
+writing requirements to example_pkg.egg-info/requires.txt
+writing top-level names to example_pkg.egg-info/top_level.txt
+writing manifest file 'example_pkg.egg-info/SOURCES.txt'
+reading manifest file 'example_pkg.egg-info/SOURCES.txt'
+writing manifest file 'example_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/python3.10/site-packages/example-pkg.egg-link (link to .)
+Installing publisher_node script to /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/example_pkg
+Installing subscriber_node script to /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/example_pkg
+
+Installed /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg
+running symlink_data
+creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/ament_index
+creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/ament_index/resource_index
+creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/resource/example_pkg -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/package.xml -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/example_pkg
+creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/example_pkg/launch
+symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/launch/launcher_copy.launch.py -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/example_pkg/launch
+symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/launch/launcher.launch.py -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/example_pkg/launch

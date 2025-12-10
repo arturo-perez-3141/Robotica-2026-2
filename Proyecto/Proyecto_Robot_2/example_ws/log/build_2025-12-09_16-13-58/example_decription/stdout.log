@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing example_decription.egg-info/PKG-INFO
+writing dependency_links to example_decription.egg-info/dependency_links.txt
+writing entry points to example_decription.egg-info/entry_points.txt
+writing requirements to example_decription.egg-info/requires.txt
+writing top-level names to example_decription.egg-info/top_level.txt
+reading manifest file 'example_decription.egg-info/SOURCES.txt'
+writing manifest file 'example_decription.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_decription/lib/python3.10/site-packages/example-decription.egg-link (link to .)
+
+Installed /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_decription
+running symlink_data

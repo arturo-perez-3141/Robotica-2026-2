@@ -1,0 +1,1 @@
+/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_interfaces/rosidl_generator_cpp/example_interfaces/msg/detail/example_msg__traits.hpp

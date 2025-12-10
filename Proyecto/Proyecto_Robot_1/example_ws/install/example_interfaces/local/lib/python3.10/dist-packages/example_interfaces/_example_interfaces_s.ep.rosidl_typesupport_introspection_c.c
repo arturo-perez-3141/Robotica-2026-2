@@ -1,0 +1,1 @@
+/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c

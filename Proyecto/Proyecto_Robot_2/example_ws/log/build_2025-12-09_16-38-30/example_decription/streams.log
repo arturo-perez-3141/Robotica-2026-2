@@ -1,0 +1,16 @@
+[1.896s] Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_decription': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_decription/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_decription/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_decription/build --no-deps symlink_data
+[2.332s] running develop
+[2.607s] running egg_info
+[2.607s] writing example_decription.egg-info/PKG-INFO
+[2.608s] writing dependency_links to example_decription.egg-info/dependency_links.txt
+[2.608s] writing entry points to example_decription.egg-info/entry_points.txt
+[2.608s] writing requirements to example_decription.egg-info/requires.txt
+[2.609s] writing top-level names to example_decription.egg-info/top_level.txt
+[2.611s] reading manifest file 'example_decription.egg-info/SOURCES.txt'
+[2.613s] writing manifest file 'example_decription.egg-info/SOURCES.txt'
+[2.617s] running build_ext
+[2.617s] Creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_decription/lib/python3.10/site-packages/example-decription.egg-link (link to .)
+[2.618s] 
+[2.618s] Installed /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_decription
+[2.618s] running symlink_data
+[2.681s] Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_decription' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_decription/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_decription/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_decription/build --no-deps symlink_data

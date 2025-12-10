@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+example_decription/__init__.py
+example_decription.egg-info/PKG-INFO
+example_decription.egg-info/SOURCES.txt
+example_decription.egg-info/dependency_links.txt
+example_decription.egg-info/entry_points.txt
+example_decription.egg-info/requires.txt
+example_decription.egg-info/top_level.txt
+example_decription.egg-info/zip-safe
+resource/example_decription

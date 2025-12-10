@@ -1,0 +1,428 @@
+[0.129s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.129s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75e46aba1d80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75e46aba1600>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75e46aba1600>>, mixin_verb=('build',))
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.343s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_bringup) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_bringup) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_bringup) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_bringup) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_bringup) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_bringup) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_bringup) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_bringup) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_bringup' with type 'ros.ament_python' and name 'example_bringup'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_control) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_control) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_control) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_control) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_control) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_control) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_control) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_control) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_control) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_control' with type 'ros.ament_python' and name 'example_control'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_decription) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_decription) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_decription) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_decription) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_decription) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_decription) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_decription) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_decription) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_decription) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_decription' with type 'ros.ament_python' and name 'example_decription'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_description' with type 'ros.ament_python' and name 'example_description'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_interfaces' with type 'ros.ament_cmake' and name 'example_interfaces'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_pkg) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_pkg) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_pkg) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_pkg) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_pkg) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_pkg) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_pkg) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_pkg) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_pkg' with type 'ros.ament_python' and name 'example_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install
+[0.402s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 432 installed packages in /opt/ros/humble
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.457s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'example_interfaces' is in: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding example_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'example_bringup' build argument 'cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_bringup' build argument 'cmake_target' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'example_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_control' build argument 'cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_control' build argument 'cmake_target' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'example_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'example_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_control', 'symlink_install': True, 'test_result_base': None}
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_decription' build argument 'cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_decription' build argument 'cmake_target' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_decription' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_decription' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_decription' build argument 'cmake_clean_first' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_decription' build argument 'cmake_force_configure' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_decription' build argument 'ament_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_decription' build argument 'catkin_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_decription' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.460s] DEBUG:colcon.colcon_core.verb:Building package 'example_decription' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_decription', 'symlink_install': True, 'test_result_base': None}
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_target' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.460s] DEBUG:colcon.colcon_core.verb:Building package 'example_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_description', 'symlink_install': True, 'test_result_base': None}
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.461s] DEBUG:colcon.colcon_core.verb:Building package 'example_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_pkg' build argument 'cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_pkg' build argument 'cmake_target' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'example_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'example_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'example_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'example_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'example_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'example_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.462s] DEBUG:colcon.colcon_core.verb:Building package 'example_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.462s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.463s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_bringup' with build type 'ament_python'
+[0.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_bringup', 'ament_prefix_path')
+[0.466s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/hook/ament_prefix_path.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/hook/ament_prefix_path.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/hook/ament_prefix_path.sh'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.475s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_control' with build type 'ament_python'
+[0.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_control', 'ament_prefix_path')
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/hook/ament_prefix_path.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/hook/ament_prefix_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/hook/ament_prefix_path.sh'
+[0.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_decription' with build type 'ament_python'
+[0.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_decription', 'ament_prefix_path')
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/hook/ament_prefix_path.ps1'
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/hook/ament_prefix_path.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/hook/ament_prefix_path.sh'
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.492s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_description' with build type 'ament_python'
+[0.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_description', 'ament_prefix_path')
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/hook/ament_prefix_path.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/hook/ament_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/hook/ament_prefix_path.sh'
+[0.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.874s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_bringup'
+[0.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.255s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_control'
+[1.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.604s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_decription'
+[1.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.966s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_description'
+[1.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description/build --no-deps symlink_data
+[2.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control/build --no-deps symlink_data
+[2.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup/build --no-deps symlink_data
+[2.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/build --no-deps symlink_data
+[4.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_control', 'pythonpath_develop')
+[4.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control/share/example_control/hook/pythonpath_develop.ps1'
+[4.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control/share/example_control/hook/pythonpath_develop.dsv'
+[4.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control/build --no-deps symlink_data
+[4.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_control/share/example_control/hook/pythonpath_develop.sh'
+[4.360s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control' for CMake module files
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control' for CMake config files
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/lib'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/bin'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/lib/pkgconfig/example_control.pc'
+[4.365s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/lib/python3.10/site-packages'
+[4.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_control', 'pythonpath')
+[4.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/hook/pythonpath.ps1'
+[4.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/hook/pythonpath.dsv'
+[4.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/hook/pythonpath.sh'
+[4.370s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/bin'
+[4.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_control)
+[4.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/package.ps1'
+[4.374s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/package.dsv'
+[4.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/package.sh'
+[4.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/package.bash'
+[4.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/example_control/package.zsh'
+[4.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control/share/colcon-core/packages/example_control)
+[4.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_interfaces' with build type 'ament_cmake'
+[4.394s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_interfaces'
+[4.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_description', 'pythonpath_develop')
+[4.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description/share/example_description/hook/pythonpath_develop.ps1'
+[4.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description/build --no-deps symlink_data
+[4.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description/share/example_description/hook/pythonpath_develop.dsv'
+[4.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_description/share/example_description/hook/pythonpath_develop.sh'
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description' for CMake module files
+[4.426s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description' for CMake config files
+[4.428s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/lib'
+[4.429s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/bin'
+[4.429s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/lib/pkgconfig/example_description.pc'
+[4.430s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/lib/python3.10/site-packages'
+[4.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_description', 'pythonpath')
+[4.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/hook/pythonpath.ps1'
+[4.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/hook/pythonpath.dsv'
+[4.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/hook/pythonpath.sh'
+[4.436s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/bin'
+[4.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_description)
+[4.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/package.ps1'
+[4.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/package.dsv'
+[4.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/package.sh'
+[4.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/package.bash'
+[4.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/example_description/package.zsh'
+[4.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description/share/colcon-core/packages/example_description)
+[4.449s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_pkg' with build type 'ament_python'
+[4.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_pkg', 'ament_prefix_path')
+[4.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/hook/ament_prefix_path.ps1'
+[4.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/hook/ament_prefix_path.dsv'
+[4.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/hook/ament_prefix_path.sh'
+[4.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces -- -j4 -l4
+[4.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_bringup', 'pythonpath_develop')
+[4.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup/share/example_bringup/hook/pythonpath_develop.ps1'
+[4.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup/share/example_bringup/hook/pythonpath_develop.dsv'
+[4.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup/build --no-deps symlink_data
+[4.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_bringup/share/example_bringup/hook/pythonpath_develop.sh'
+[4.522s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup' for CMake module files
+[4.526s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup' for CMake config files
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/lib'
+[4.529s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/bin'
+[4.530s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/lib/pkgconfig/example_bringup.pc'
+[4.534s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/lib/python3.10/site-packages'
+[4.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_bringup', 'pythonpath')
+[4.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/hook/pythonpath.ps1'
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/hook/pythonpath.dsv'
+[4.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/hook/pythonpath.sh'
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/bin'
+[4.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_bringup)
+[4.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/package.ps1'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/package.dsv'
+[4.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/package.sh'
+[4.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/package.bash'
+[4.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/example_bringup/package.zsh'
+[4.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup/share/colcon-core/packages/example_bringup)
+[5.248s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/src/example_pkg'
+[5.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_decription', 'pythonpath_develop')
+[5.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/share/example_decription/hook/pythonpath_develop.ps1'
+[5.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/build --no-deps symlink_data
+[5.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/share/example_decription/hook/pythonpath_develop.dsv'
+[5.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_decription/share/example_decription/hook/pythonpath_develop.sh'
+[5.262s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription' for CMake module files
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription' for CMake config files
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/lib'
+[5.264s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/bin'
+[5.264s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/lib/pkgconfig/example_decription.pc'
+[5.264s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/lib/python3.10/site-packages'
+[5.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_decription', 'pythonpath')
+[5.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/hook/pythonpath.ps1'
+[5.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/hook/pythonpath.dsv'
+[5.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/hook/pythonpath.sh'
+[5.268s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/bin'
+[5.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_decription)
+[5.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/package.ps1'
+[5.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/package.dsv'
+[5.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/package.sh'
+[5.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/package.bash'
+[5.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/example_decription/package.zsh'
+[5.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription/share/colcon-core/packages/example_decription)
+[5.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces -- -j4 -l4
+[5.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces
+[5.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_interfaces)
+[5.644s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces' for CMake module files
+[5.646s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces' for CMake config files
+[5.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces', 'cmake_prefix_path')
+[5.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.ps1'
+[5.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.dsv'
+[5.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.sh'
+[5.650s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib'
+[5.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces', 'ld_library_path_lib')
+[5.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.ps1'
+[5.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.dsv'
+[5.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.sh'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/bin'
+[5.654s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/pkgconfig/example_interfaces.pc'
+[5.654s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/python3.10/site-packages'
+[5.654s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/bin'
+[5.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.ps1'
+[5.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.dsv'
+[5.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.sh'
+[5.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.bash'
+[5.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.zsh'
+[5.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/colcon-core/packages/example_interfaces)
+[5.660s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_interfaces)
+[5.661s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces' for CMake module files
+[5.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces' for CMake config files
+[5.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces', 'cmake_prefix_path')
+[5.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.ps1'
+[5.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.dsv'
+[5.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.sh'
+[5.668s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib'
+[5.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces', 'ld_library_path_lib')
+[5.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.ps1'
+[5.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.dsv'
+[5.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.sh'
+[5.672s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/bin'
+[5.672s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/pkgconfig/example_interfaces.pc'
+[5.672s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/python3.10/site-packages'
+[5.673s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/bin'
+[5.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.ps1'
+[5.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.dsv'
+[5.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.sh'
+[5.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.bash'
+[5.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.zsh'
+[5.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/colcon-core/packages/example_interfaces)
+[5.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg/build --no-deps symlink_data
+[6.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_pkg', 'pythonpath_develop')
+[6.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg/share/example_pkg/hook/pythonpath_develop.ps1'
+[6.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg/build --no-deps symlink_data
+[6.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg/share/example_pkg/hook/pythonpath_develop.dsv'
+[6.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_pkg/share/example_pkg/hook/pythonpath_develop.sh'
+[6.755s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg' for CMake module files
+[6.756s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg' for CMake config files
+[6.756s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/lib'
+[6.757s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/bin'
+[6.757s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/lib/pkgconfig/example_pkg.pc'
+[6.757s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/lib/python3.10/site-packages'
+[6.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_pkg', 'pythonpath')
+[6.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/hook/pythonpath.ps1'
+[6.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/hook/pythonpath.dsv'
+[6.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/hook/pythonpath.sh'
+[6.759s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/bin'
+[6.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_pkg)
+[6.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/package.ps1'
+[6.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/package.dsv'
+[6.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/package.sh'
+[6.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/package.bash'
+[6.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/example_pkg/package.zsh'
+[6.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg/share/colcon-core/packages/example_pkg)
+[6.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.764s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.773s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.796s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/local_setup.ps1'
+[6.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/_local_setup_util_ps1.py'
+[6.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/setup.ps1'
+[6.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/local_setup.sh'
+[6.804s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/_local_setup_util_sh.py'
+[6.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/setup.sh'
+[6.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/local_setup.bash'
+[6.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/setup.bash'
+[6.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/local_setup.zsh'
+[6.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/setup.zsh'

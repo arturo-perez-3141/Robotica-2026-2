@@ -1,0 +1,16 @@
+[2.165s] Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_bringup': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_bringup/build --no-deps symlink_data
+[2.793s] running develop
+[3.268s] running egg_info
+[3.268s] writing example_bringup.egg-info/PKG-INFO
+[3.269s] writing dependency_links to example_bringup.egg-info/dependency_links.txt
+[3.269s] writing entry points to example_bringup.egg-info/entry_points.txt
+[3.270s] writing requirements to example_bringup.egg-info/requires.txt
+[3.270s] writing top-level names to example_bringup.egg-info/top_level.txt
+[3.280s] reading manifest file 'example_bringup.egg-info/SOURCES.txt'
+[3.280s] writing manifest file 'example_bringup.egg-info/SOURCES.txt'
+[3.280s] running build_ext
+[3.281s] Creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_bringup/lib/python3.10/site-packages/example-bringup.egg-link (link to .)
+[3.282s] 
+[3.282s] Installed /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_bringup
+[3.282s] running symlink_data
+[3.362s] Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_bringup' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_bringup/build --no-deps symlink_data

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "example_interfaces__py",
+		"source" : "/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_interfaces/example_interfaces__py"
+	}
+}

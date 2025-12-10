@@ -1,0 +1,1 @@
+/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces/rosidl_generator_py/example_interfaces/__init__.py

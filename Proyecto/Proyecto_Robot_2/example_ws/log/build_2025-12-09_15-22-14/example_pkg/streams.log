@@ -1,0 +1,28 @@
+[0.922s] Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/build --no-deps symlink_data
+[1.242s] running develop
+[1.474s] running egg_info
+[1.474s] creating example_pkg.egg-info
+[1.474s] writing example_pkg.egg-info/PKG-INFO
+[1.474s] writing dependency_links to example_pkg.egg-info/dependency_links.txt
+[1.474s] writing entry points to example_pkg.egg-info/entry_points.txt
+[1.474s] writing requirements to example_pkg.egg-info/requires.txt
+[1.474s] writing top-level names to example_pkg.egg-info/top_level.txt
+[1.475s] writing manifest file 'example_pkg.egg-info/SOURCES.txt'
+[1.477s] reading manifest file 'example_pkg.egg-info/SOURCES.txt'
+[1.478s] writing manifest file 'example_pkg.egg-info/SOURCES.txt'
+[1.479s] running build_ext
+[1.479s] Creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/python3.10/site-packages/example-pkg.egg-link (link to .)
+[1.480s] Installing publisher_node script to /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/example_pkg
+[1.480s] Installing subscriber_node script to /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/example_pkg
+[1.481s] 
+[1.481s] Installed /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg
+[1.481s] running symlink_data
+[1.481s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/ament_index
+[1.481s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/ament_index/resource_index
+[1.481s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/ament_index/resource_index/packages
+[1.481s] symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/resource/example_pkg -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/ament_index/resource_index/packages
+[1.481s] symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/package.xml -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/example_pkg
+[1.482s] creating /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/example_pkg/launch
+[1.482s] symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/launch/launcher_copy.launch.py -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/example_pkg/launch
+[1.482s] symbolically linking /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/launch/launcher.launch.py -> /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/share/example_pkg/launch
+[1.538s] Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_2/example_ws/build/example_pkg/build --no-deps symlink_data

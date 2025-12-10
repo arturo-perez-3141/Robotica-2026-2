@@ -1,0 +1,131 @@
+[0.119s] Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces -- -j4 -l4
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_generator_c[0m
+[0.269s] [  3%] Built target example_interfaces__cpp
+[0.274s] [ 12%] Built target example_interfaces__rosidl_generator_c
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_typesupport_cpp[0m
+[0.301s] [ 12%] Built target ament_cmake_python_symlink_example_interfaces
+[0.316s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.330s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.342s] [ 22%] Built target example_interfaces__rosidl_typesupport_cpp
+[0.344s] [ 32%] Built target example_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.361s] [ 41%] Built target example_interfaces__rosidl_typesupport_introspection_cpp
+[0.364s] [ 51%] Built target example_interfaces__rosidl_typesupport_fastrtps_c
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_typesupport_introspection_c[0m
+[0.379s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_typesupport_c[0m
+[0.401s] [ 61%] Built target example_interfaces__rosidl_typesupport_introspection_c
+[0.405s] [ 70%] Built target example_interfaces__rosidl_typesupport_c
+[0.461s] [ 70%] Built target example_interfaces
+[0.518s] [ 74%] Built target example_interfaces__py
+[0.566s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_generator_py[0m
+[0.608s] [ 80%] Built target example_interfaces__rosidl_generator_py
+[0.652s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.663s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.677s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces__rosidl_typesupport_c__pyext[0m
+[0.735s] [ 87%] Built target example_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.755s] [ 93%] Built target example_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.772s] [100%] Built target example_interfaces__rosidl_typesupport_c__pyext
+[1.359s] running egg_info
+[1.361s] writing example_interfaces.egg-info/PKG-INFO
+[1.361s] writing dependency_links to example_interfaces.egg-info/dependency_links.txt
+[1.362s] writing top-level names to example_interfaces.egg-info/top_level.txt
+[1.367s] reading manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[1.368s] writing manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[1.423s] [100%] Built target ament_cmake_python_build_example_interfaces_egg
+[1.467s] Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces -- -j4 -l4
+[1.499s] Invoking command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces
+[1.514s] -- Install configuration: ""
+[1.515s] -- Execute custom install script
+[1.515s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_interfaces
+[1.516s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__functions.h
+[1.517s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__struct.h
+[1.517s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__type_support.h
+[1.518s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/example_msg.h
+[1.518s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.518s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/environment/library_path.sh
+[1.519s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/environment/library_path.dsv
+[1.519s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_c.h
+[1.520s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.520s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_c.h
+[1.521s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.521s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__builder.hpp
+[1.522s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__struct.hpp
+[1.522s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__traits.hpp
+[1.523s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__type_support.hpp
+[1.523s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/example_msg.hpp
+[1.524s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.525s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.525s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.526s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.526s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/environment/pythonpath.sh
+[1.527s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/environment/pythonpath.dsv
+[1.527s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.527s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.527s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.528s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.529s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py
+[1.533s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c
+[1.533s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.533s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.533s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.533s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.534s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.534s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/libexample_interfaces__rosidl_generator_py.so
+[1.534s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/__init__.py
+[1.534s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg.py
+[1.534s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg_s.c
+[1.534s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.534s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.534s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.534s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/msg/ExampleMsg.idl
+[1.538s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/msg/ExampleMsg.msg
+[1.538s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/ament_index/resource_index/package_run_dependencies/example_interfaces
+[1.539s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/ament_index/resource_index/parent_prefix_path/example_interfaces
+[1.539s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.sh
+[1.539s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.dsv
+[1.540s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/environment/path.sh
+[1.546s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/environment/path.dsv
+[1.547s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/local_setup.bash
+[1.547s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/local_setup.sh
+[1.548s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/local_setup.zsh
+[1.548s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/local_setup.dsv
+[1.548s] -- Symlinking: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.dsv
+[1.567s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/ament_index/resource_index/packages/example_interfaces
+[1.568s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.568s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.568s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.568s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.568s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.569s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.569s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.569s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig.cmake
+[1.570s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig-version.cmake
+[1.570s] -- Up-to-date symlink: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/package.xml
+[1.572s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so
+[1.573s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.576s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so
+[1.577s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so
+[1.577s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.578s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.578s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so
+[1.763s] Listing '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces'...
+[1.763s] Listing '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg'...
+[1.771s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so
+[1.772s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport.cmake
+[1.772s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.773s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.773s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.773s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.773s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.774s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport.cmake
+[1.774s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.774s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cppExport.cmake
+[1.775s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.775s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.775s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.776s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.776s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport.cmake
+[1.776s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.776s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport.cmake
+[1.776s] -- Up-to-date: /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.780s] Invoked command in '/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_pkg:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_description:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_decription:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_control:/home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/install/example_bringup:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Workspaces/Proyecto_Robot_1/example_ws/build/example_interfaces
